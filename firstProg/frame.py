@@ -1,0 +1,13 @@
+from tkinter import *
+root=Tk()
+root.geometry("655x444")
+root.title("Frame")
+f1=Frame(root,bg="grey",borderwidth=6 ,relief=SUNKEN)
+f2=Frame(root,bg="grey",borderwidth=6 ,relief=SUNKEN)
+f2.pack(fill="x")
+f1.pack(side=LEFT,fill="y")
+l=Label(f1,text="project")
+l2=Label(f2,text="Welcome to Sublimetxt",fg="red")
+l2.pack()
+l.pack(pady=142)
+root.mainloop()
